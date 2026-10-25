@@ -23,7 +23,15 @@ php-base/
 │   └── index.php
 ├── 05-数据类型/            # 标量类型与类型查看
 │   ├── index.php
-│   └── boolean/
+│   ├── boolean/
+│   │   └── index.php
+│   ├── float/
+│   │   └── index.php
+│   ├── integer/
+│   │   └── index.php
+│   ├── null/
+│   │   └── index.php
+│   └── string/
 │       └── index.php
 └── README.md
 ```
@@ -51,6 +59,11 @@ php 02-变量与常量/index.php
 php 03-可变变量/index.php
 php 04-魔术常量/index.php
 php 05-数据类型/index.php
+php 05-数据类型/boolean/index.php
+php 05-数据类型/float/index.php
+php 05-数据类型/integer/index.php
+php 05-数据类型/null/index.php
+php 05-数据类型/string/index.php
 ```
 
 例如运行变量与常量示例：
@@ -75,6 +88,11 @@ http://127.0.0.1:8000/02-变量与常量/
 http://127.0.0.1:8000/03-可变变量/
 http://127.0.0.1:8000/04-魔术常量/
 http://127.0.0.1:8000/05-数据类型/
+http://127.0.0.1:8000/05-数据类型/boolean/
+http://127.0.0.1:8000/05-数据类型/float/
+http://127.0.0.1:8000/05-数据类型/integer/
+http://127.0.0.1:8000/05-数据类型/null/
+http://127.0.0.1:8000/05-数据类型/string/
 ```
 
 浏览器通常会自动处理中文目录的 URL 编码。按 `Ctrl + C` 可停止服务器。
@@ -91,6 +109,11 @@ http://127.0.0.1:8000/05-数据类型/
 
 ### 数据类型补充
 
+- [Boolean](05-数据类型/boolean/index.php)：布尔类型与条件判断
+- [Float](05-数据类型/float/index.php)：浮点数、科学计数法与精度问题
+- [Integer](05-数据类型/integer/index.php)：整数、进制写法、范围与整数运算
+- [Null](05-数据类型/null/index.php)：`NULL`、`is_null()` 与 NULL 合并运算符
+- [String](05-数据类型/string/index.php)：单双引号、字符串拼接与常用函数
 - 标量类型：`Boolean`、`Integer`、`Float`、`String`
 - 复合类型：`Array`、`Object`、`Callable`、`Iterable`、`Enum`
 - 特殊类型：`NULL`、`Resource`
